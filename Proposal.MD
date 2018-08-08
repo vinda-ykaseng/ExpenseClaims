@@ -23,7 +23,7 @@ A Claims system which utilizes a web interface to interact with end users. The s
 Since Rapid4 cannot accomplish all of the objectives, the proposed system will be built from scratch.
 
 ## Project Budget
-To acquire the distance between two locations, the solution will use Google Maps' [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start). Google provides us with $200 in monthly credit. With the free credit, the system can make the first 40,000 calls to this API for free and it costs USD 5 for each subsequent thousandth call. More information on its pricing structure can be found [here](https://cloud.google.com/maps-platform/pricing/sheet/#routes).
+To acquire the distance between two locations, the solution will use Google Maps' [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start). Google provides us with $200 in monthly credit. With the free credit, the system can make the first 40,000 calls to this API for free and it costs $5 for each subsequent thousandth call. More information on its pricing structure can be found [here](https://cloud.google.com/maps-platform/pricing/sheet/#routes).
 
 Optionally, we could also use Google Maps' [Places Autocomplete API](https://developers.google.com/maps/documentation/javascript/places-autocomplete) to assist with form completion and provide more accurate data to the Distance Matrix API. However, it should be noted that this API is quite expensive and would utilize the same pool of free credit Google provides us with monthly. It costs $2.83 per 100,000 characters. More information on its pricing structure can be found [here](https://cloud.google.com/maps-platform/pricing/sheet/#places).
 
