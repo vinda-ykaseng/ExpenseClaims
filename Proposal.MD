@@ -4,7 +4,7 @@
 A solution to replace the manual claims process that the AP Department currently uses.
 
 ## Objectives
-* Handle user sessions and acquire account information from Active Directory
+* SSO integration
 * Determine the distance between travel points for Mileage Claims and calculate the amount to be reimbursed based on said distance and mode of transport.
 * Export the relevant data out into an Excel Stylesheet at the end of the month to be inserted into SAP, and eventually Oracle.
 * Hide/show information based on user's role or level of access.
